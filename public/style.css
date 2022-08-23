@@ -1,0 +1,650 @@
+/* Font Initialize */
+
+@font-face{
+    font-family:'Poppins-Black';
+    src: url('fonts/Poppins-Black.ttf') format('truetype');
+}
+@font-face{
+    font-family:'Poppins-Bold';
+    src: url('fonts/Poppins-Bold.ttf') format('truetype');
+}
+@font-face{
+    font-family:'Poppins-BoldItalic';
+    src: url('fonts/Poppins-BoldItalic.ttf') format('truetype');
+}
+@font-face{
+    font-family:'Poppins-Regular';
+    src: url('fonts/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family:'Poppins-Medium';
+    src: url('fonts/Poppins-Medium.tff') format('truetype');
+}
+@font-face {
+    font-family: "Poppins-Thin";
+    src: url('fonts/Poppins-Thin.tff') format('truetype');
+}
+@font-face {
+    font-family: "Poppins-Semi_italic";
+    src: url('fonts/Poppins-SemiBoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Poppins-italic";
+    src: url('fonts/Poppins-Italic.ttf') format('truetype');
+}
+
+
+/* Root Colors Define  */
+
+:root {
+    --bs-red:#C3212A;
+    --bs-light-black:#333333;
+    --bs-white:#ffffff;
+    --bs-light:#E6E6E8;
+    --bs-light-pink:#F4EBDD;
+    --bs-grey:#727475;
+    --bs-offwhite:#F2E9DB;
+  }
+
+  .placement-wrapper .top-bar .nav{
+    min-height: 60px;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .placement-wrapper .top-bar .nav .nav-item:first-of-type .nav-link {
+    position: relative;
+  }
+
+  .placement-wrapper .top-bar .nav .nav-item:nth-child(1) .nav-link::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 50%;
+    background: #727475;
+    top: 50%;
+    transform: translate(0,-50%);
+    margin-left: 15px;
+  }
+  .placement-wrapper .top-bar .nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    font-family: "Poppins-Regular";
+}
+
+.placement-wrapper .top-bar .bg-yellow {
+    background-color: #f5ecde;
+    border-radius: 10px;
+}
+
+.placement-wrapper .top-bar .nav .dropdown {
+    background-color: var(--bs-light-black);
+    color: var(--bs-white);
+}
+
+.placement-wrapper .top-bar .nav .nav-item .quicks-links {
+    color: var(--bs-white)!important;
+}
+
+.placement-wrapper .top-bar .nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+}
+
+.placement-wrapper .second-bar .dropdown .dropdown-menu-show {
+    display: flex;
+    flex-wrap: wrap;
+    border: 0;
+    padding: 0.5rem;
+    border-radius: 0;
+    background-color: var(--bs-light-black);
+    min-width: 8.8rem;
+    transform: translate(0px,40px)!important;
+    inset: 0 auto auto 0;
+}
+
+
+.placement-wrapper .second-bar .dropdown-menu-show li {
+    width: 100%;
+    flex: 0 0 100%;
+    text-transform: uppercase;
+}
+.placement-wrapper  .top-bar .dropdown .dropdown-menu-show .dropdown-item {
+    color: var(--bs-white);
+}
+
+.placement-wrapper .dropdown-item {
+    font-size: 12px!important;
+    font-weight: 600!important;
+}
+
+.placement-wrapper .second-bar .navbar-brand .logo{
+    height: 30px;
+}
+
+  
+  .placement-wrapper .second-bar{
+    background-color:var(--bs-light-pink) ;
+  }
+  .placement-wrapper .second-bar .nav-item .nav-link {
+    color: var(--bs-grey);
+    font-family: "Poppins-Bold";
+   
+  }
+  .placement-wrapper .second-bar .nav-item .nav-link:focus{
+    color: var(--bs-red);
+    font-family: "Poppins-Bold";
+  }
+  .placement-wrapper .second-bar .navbar .navbar-nav li:nth-child(even) {
+    width: 50%;
+    float: right; 
+  }
+  .placement-wrapper .second-bar .navbar .navbar-nav  li:nth-child(odd) {
+    width: 50%;
+    float: left;
+  }
+
+  .placement-wrapper .second-bar .navbar .navbar-nav  ul{
+    left: 50%;
+    right: auto;
+    transform: translateX(-70%);
+  }
+
+  .placement-wrapper .second-bar .navbar .navbar-nav .nav-item .dropdown-menu {
+   background-color: var(--bs-light-black);
+   width: 350px;
+  }
+  .placement-wrapper .second-bar .navbar .navbar-nav .nav-item .dropdown-menu li a{
+    color: var(--bs-offwhite);
+    font-family: "Poppins-Regular";
+   }
+.placement-wrapper .second-bar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover{
+    background-color: var(--bs-offwhite);
+    color: var(--bs-light-black);
+    font-family: "Poppins-Bold";
+}
+  .placement-wrapper .placement-third{
+    background-color:var(--bs-light) ;
+  }
+  .placement-wrapper .placement-third .nav-item .nav-link {
+    color: var(--bs-grey);
+    font-family: "Poppins-Bold";
+
+   
+  }
+  .placement-wrapper .placement-third .nav-item .nav-link:focus{
+    color: var(--bs-red);
+  }
+
+  .placement-wrapper .placement-text h1{
+    font-family: "Poppins-Bold";
+    color: var(--bs-white);
+    font-size: 4.0rem;
+}
+ .placement-wrapper .placement-banner{
+    position: relative;
+    width: 100%;
+    color: #fff;
+ }
+ .placement-wrapper .placement-text{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    transform: translate(-10%,-40%);
+}
+.placement-wrapper .icon-vertical {
+    background-color: var(--bs-red);
+    width: 35px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.placement-wrapper .icon-vertical a{
+    color: var(--bs-white);
+}
+
+.placement-wrapper .placement-message{
+    background-color: var(--bs-light-pink);
+    position: relative;
+    z-index: -1;
+}
+.placement-wrapper .owl-theme{
+    width: 100%;
+}
+.placement-wrapper .placement-message {
+    border: 3px solid black;
+    margin-left: 9rem;
+}
+
+.placement-wrapper .placement-message .message-box .text-message h3{
+    font-family: "Poppins-Bold";
+    color: var(--bs-light-black);
+}
+.placement-wrapper .placement-message .message-box .text-message p{
+    font-family: "Poppins-Regular";
+    color: var(--bs-light-black);
+    font-size: 1.25rem;
+}
+.placement-wrapper .placement-message .message-box .text-message a{
+    font-family:"Poppins-Semi_italic";
+    color: var(--bs-light-black);
+    font-size: 1.25rem;
+}
+.placement-wrapper .mess {
+    font-family: "Poppins-Bold";
+    color: var(--bs-red);
+}
+
+.placement-wrapper .placement-message .of-image img{
+    width: 300px;
+    position: absolute;
+    top: 10%;
+    left: -15%;
+    transform: translate(12%,5%);
+    border: 2px solid black;
+}
+
+.placement-wrapper .last-foot .line-list .last-head:not(:last-of-type)::after {
+    content: "";
+    position: absolute;
+    width: 0.01rem;
+    height: 35%;
+    /* right: 0; */
+    background: #002c54;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.placement-wrapper .placement-success .success-text h2{
+    font-family: "Poppins-Bold";
+    color:var(--bs-red);
+}
+
+.placement-wrapper .placement-success .success-text p{
+    font-family: "Poppins-Regular";
+    color:var(--bs-light-black);
+    font-size: 1.25rem;
+    text-align: justify;
+}
+.placement-wrapper .placement-success .success-text button span{
+    font-family: "Poppins-Regular";
+    color:var(--bs-white);
+}
+.placement-wrapper .placement-success{
+    position: relative;
+    width: 100%;
+}
+.placement-wrapper .placement-success  .gallery {
+    display: flex;
+    padding: 2px;
+    transition: 0.3s;
+}
+.placement-wrapper .placement-success .gallery_column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.placement-wrapper .placement-success .gallery_link {
+    margin: 2px;
+    overflow: hidden;
+}
+.placement-wrapper .placement-success .gallery_thumb {
+    position: relative;
+}
+.placement-wrapper .placement-success .gallery_image {
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+ .owl-theme .owl-nav.disabled+.owl-dots {
+   position: relative;
+   top: -90px;
+}
+
+
+.placement-wrapper .placement-collab h1{
+    font-family: "Poppins-Bold";
+    color: var(--bs-red);
+}
+
+.placement-wrapper .placement-collab img{
+    width: 100px;
+}
+.placement-wrapper  .last-foot{
+    background-color: var(--bs-offwhite);
+    position: relative;
+    width: 100%;
+}
+.placement-wrapper  .last-foot .line-list .last-head{
+    font-family: "Poppins-Regular";
+    text-decoration: underline;
+}
+
+.placement-wrapper  .last-foot .line-list  .vertical{
+    border-left: 2px solid black;
+    height: 20px;
+}
+.placement-wrapper .footer {
+    background-color: #4a4a4a;
+    padding: 1.5rem 0 0;
+    font-family: Poppins-Light;
+    position: relative;
+    color: #000;
+}
+
+.placement-wrapper .footer .second-footer-section p {
+    font-family: Poppins-Regular;
+    font-size: 12px;
+}
+.placement-wrapper .footer-section {
+    position: relative;
+}
+
+.placement-wrapper .footer-section>img {
+    width: 75%;
+}
+.placement-wrapper .footer-section a {
+    color: #fff;
+    font-family: "Poppins-Regular";
+}
+.placement-wrapper .footer-section ul {
+    list-style-type: none;
+}
+.placement-wrapper .footer-section h5, .footer-section ul, .footer-section p {
+    color: #fff;
+    font-family: "Poppins-Regular";
+}
+.placement-wrapper .footer-section .links-details p {
+    margin-bottom: 0.5rem;
+    font-size: small;
+    font-family: "Poppins-Regular";
+}
+.placement-wrapper .footer-section .links-details a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins-Regular";
+}
+.placement-wrapper .footer-section a p {
+    margin-bottom: 0.25rem!important;
+    font-family: "Poppins-Regular";
+}
+.placement-wrapper .footer-section .social-icons img {
+    width: 12%;
+}
+.placement-wrapper .second-footer-section img {
+    width: 75%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.placement-wrapper .placement-third .navbar-nav .dropdown-menu{
+    background-color: var(--bs-light-black);
+
+}
+.placement-wrapper .placement-third .navbar-nav .dropdown-menu li a{
+    color: var(--bs-offwhite);
+    font-family: "Poppins Regular";
+}
+/* .placement-wrapper .footer .second-footer-section:not(:last-of-type)::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 75%;
+    right: 0;
+    background: #fff;
+    top: 50%;
+    transform: translate(0, -50%);
+} */
+
+
+
+/* Collab Page */
+
+.placement-wrapper .collab-banner{
+    position: relative;
+    width: 100%;
+    color: #fff;
+ }
+ .placement-wrapper .collab-text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-10%,-40%);
+}
+.placement-wrapper .icon-vertical {
+    background-color: var(--bs-red);  
+    width: 35px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.placement-wrapper .icon-vertical a{
+    color: var(--bs-white);
+}
+.placement-wrapper .collab-text h1{
+    font-family: "Poppins-Bold";
+    color: var(--bs-white);
+    font-size: 4.0rem;
+}
+.placement-wrapper .collab-zone h1{
+    font-family: "Poppins-Bold";
+    color: var(--bs-red);
+}
+
+.placement-wrapper .collab-zone img{
+    width: 100px;
+}
+.placement-wrapper .placement-success .gallery_column .jog{
+    width:120px;
+    height: 160px;
+    object-fit: cover;
+}
+.placement-wrapper .placement-success .gallery_column .jog-four{ 
+    width: 60px;
+    height: 105px;
+    object-fit: cover;
+}
+ .placement-wrapper .placement-success .gallery_column .jog-five{
+    width: 70px;
+    height: 105px;
+    object-fit: cover;
+}
+.placement-wrapper .placement-success .gallery_column .jog-six{
+    width: 150%;
+    object-fit: cover;
+}
+.placement-wrapper .placement-success .gallery_column .jog-seven{
+    width: 120%;
+    height: 220px;
+    object-fit: cover;
+}
+
+    
+
+/* Why Page */
+
+.placement-wrapper .why-banner{
+    position: relative;
+    width: 100%;
+    color: #fff;
+ }
+ .placement-wrapper .why-text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-10%,-40%);
+}
+.placement-wrapper .icon-vertical {
+    background-color: var(--bs-red);  
+    width: 35px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.placement-wrapper .icon-vertical a{
+    color: var(--bs-white);
+}
+.placement-wrapper .why-text h1{
+    font-family: "Poppins-Bold";
+    color: var(--bs-white);
+    font-size: 4.0rem;
+}
+
+
+.placement-wrapper .intro-text h1{
+    font-family: "Poppins-Bold";
+    color: var(--bs-red);
+}
+.placement-wrapper .intro-text p{
+    font-family: "Poppins-Regular";
+    color: var(--bs-light-black);
+    font-size: 1.25rem;
+    text-align: justify;
+}
+
+
+/* why page */
+.placement-wrapper .why-whole{
+    background-color: var(--bs-offwhite);
+}
+.placement-wrapper .why-whole .why-objective .object-text h1{
+    font-family: "Poppins-Bold";
+    color: var(--bs-red);
+}
+.placement-wrapper .why-whole .why-objective .object-text p{
+    font-family: "Poppins-Regular";
+    color: var(--bs-light-black);
+    font-size: 1.25rem;
+    text-align: justify;
+}
+
+.placement-wrapper .why-whole .why-objective .object-list{
+    list-style-type: none;
+}
+
+.placement-wrapper .why-whole .why-objective .object-list li{
+   font-family: "Poppins-Regular";
+   font-size: 1.25rem;
+   text-align: justify;
+}
+.placement-wrapper .placement-success .view{
+ background-color: var(--bs-light-black);
+}
+
+
+/* Media Screen 992px */
+@media screen and (max-width:992px) {
+    .placement-wrapper .placement-text h1{
+        font-size:calc(1.375rem + 1.5vw);
+    }
+    .placement-wrapper .collab-text h1{
+        font-size:calc(1.275rem + 1.5vw);
+    }
+    .placement-wrapper .why-text h1{
+        font-size:calc(1.375rem + 1.5vw);
+    }
+    .placement-wrapper .placement-message .of-image img{
+        width: 250px;
+        position: absolute;
+        top: 10%;
+        left: -13%;
+        transform: translate(-19%,5%);
+        border: 2px solid black;
+    }
+    .placement-wrapper .placement-third .nav-item .nav-link {
+        color: var(--bs-grey);
+        font-family: "Poppins-Bold";
+    }
+    
+}
+
+
+/* Media Screen 768px */
+@media screen and (max-width:767px) {
+    .placement-wrapper .placement-message .of-image img{
+        position: relative;
+        top: 0%;
+        left: 20%;
+        transform: translate(0%,0%);
+        border: 1px solid black;
+    }
+    .placement-wrapper .placement-message {
+        border: 3px solid black;
+        margin-left: 0rem;
+    }
+    .placement-wrapper .placement-success .gallery {
+        display: inline;
+        padding: 2px;
+        transition: 0.3s;
+    }
+    .placement-wrapper .placement-success .gallery_column .jog{
+        width:100%;
+        height: auto;
+    }
+    .placement-wrapper .placement-success .gallery_column .jog-four{ 
+        width:100%;
+        height: auto;
+    }
+     .placement-wrapper .placement-success .gallery_column .jog-five{
+        width:100%;
+        height: auto;
+    }
+    .placement-wrapper .placement-success .gallery_column .jog-six{
+        width:100%;
+        height: auto;
+    }
+    .placement-wrapper .placement-success .gallery_column .jog-seven{
+        width:100%;
+        height: auto;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        position: relative;
+        top: -90px;
+    }
+    .placement-wrapper .top-bar .nav .nav-item:nth-child(4) .nav-link::after {
+        display: none;
+    }
+    .placement-wrapper .placement-third .nav-item .nav-link {
+        color: var(--bs-grey);
+        font-family: "Poppins-Bold";
+        font-size: 0.7rem;
+    }
+    .placement-wrapper .second-bar .nav-item .nav-link {
+        color: var(--bs-grey);
+        font-family: "Poppins-Bold";
+        font-size: 0.7rem; 
+    }
+    .placement-wrapper .dropdown-item {
+        font-size: 9px!important;
+        font-weight: 600!important;
+    }
+    .placement-wrapper .second-bar .navbar .navbar-nav .nav-item .dropdown-menu {
+        background-color: var(--bs-light-black);
+        width: 255px;
+        height: 100px;
+    }
+    .placement-wrapper .second-bar .navbar .navbar-nav ul {
+        left: 50%;
+        right: auto;
+        transform: translateX(0%);
+    }
+}
+
+@media screen and (max-width:576px) {
+    .placement-wrapper .placement-message .of-image img{
+        position: relative;
+        top: 0%;
+        left: 20%;
+        transform: translate(-20%,0%);
+        border: 1px solid black;
+    }}
+
