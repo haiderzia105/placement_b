@@ -50,22 +50,22 @@
         </div>
         </div>
         <div class="row">
-        <div class="col-md-3 second-footer-section text-center d-inline text-white">
-        <img src="https://tuf.edu.pk/Main/frontend/images/homepage/giu.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
-        <p class="text-center" >9th in Pakistan (2021)</p>
-        </div>
-        <div class="col-md-3 second-footer-section text-center d-inline text-white">
-        <img src="https://tuf.edu.pk/Main/frontend/images/homepage/awards.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
-        <p class="text-center" >1st in Private and 4th in all Universities in Pakistan (2020)</p>
-        </div>
-        <div class="col-md-3 second-footer-section text-center d-inline text-white">
-        <img src="https://tuf.edu.pk/Main/frontend/images/homepage/rankings.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
-        <p class="text-center" >Shortlisted (2020)</p>
-        </div>
-        <div class="col-md-3 second-footer-section text-center d-inline text-white">
-        <img src="https://tuf.edu.pk/Main/frontend/images/homepage/greens.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
-        <p class="text-center" >Shortlisted</p>
-        </div>
+            <div class="col-md-3 second-footer-section text-center d-inline text-white">
+            <img src="https://tuf.edu.pk/Main/frontend/images/homepage/giu.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
+            <p class="text-center" >9th in Pakistan (2021)</p>
+            </div>
+            <div class="col-md-3 second-footer-section text-center d-inline text-white">
+            <img src="https://tuf.edu.pk/Main/frontend/images/homepage/awards.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
+            <p class="ps-md-5" >1st in Private and 4th in all Universities in Pakistan (2020)</p>
+            </div>
+            <div class="col-md-3 second-footer-section text-center d-inline text-white">
+            <img src="https://tuf.edu.pk/Main/frontend/images/homepage/rankings.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
+            <p class="text-center" >Shortlisted (2020)</p>
+            </div>
+            <div class="col-md-3 second-footer-section text-center d-inline text-white">
+            <img src="https://tuf.edu.pk/Main/frontend/images/homepage/greens.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
+            <p class="text-center" >Shortlisted</p>
+            </div>
         </div>
         </div>
     </div>
@@ -73,26 +73,27 @@
     <div class="last-foot">
         <div class="container line-list  pt-2 ">
         <div class="row g-0 justify-content-center">
+            <div class=" offset-1"></div>
             <div class="col-lg-2 col-md-3 col-sm-4 col-8">
                 <p class="last-head mx-4"> About our website</p>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-4  col-8 d-flex">
                 <div class= "vertical d-none d-sm-block"></div>
-                <p class="last-head mx-4"> Accessibility</p>
-                
+                <p class="last-head mx-4"> Accessibility</p>        
             </div>
             <div class="col-lg-2 col-md-3 col-sm-4 col-8 d-flex">
                 <div class= "vertical d-none d-sm-block"></div>
                 <p class="last-head mx-4"> Freedom of information</p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-4 col-8 d-flex">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-8 d-flex">
                 <div class= "vertical d-none d-sm-block"></div>
                 <p class="last-head mx-4"> Student terms and conditions</p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-4 col-8 d-flex">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-8 d-flex">
                 <div class= "vertical d-none d-sm-block"></div>
                 <p class="last-head mx-4"> Website cookies and privacy policy</p>
             </div>  
+            <div class=" offset-1"></div>
         </div>        
     </div>
 </div>
