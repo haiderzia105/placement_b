@@ -109,7 +109,7 @@
         <div class="col-lg-5 col-12 ">
             <div class="success-text my-md-5 mx-sm-5 mx-2 ">
             <h2 class="pt-4">SUCCESS STORIES FROM OURSTUDENTS </h2>
-            <p class="mt-4 pe-sm-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam</p>
+            <p class="mt-4 pe-sm-5 me-sm-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam</p>
             <button class="btn btn-secondary view mt-4 mb-3"><i class="fa fa-angle-right me-3" aria-hidden="true"></i><span>View all</span></button>
         </div>
         </div>
