@@ -7,8 +7,7 @@
     <div class="why-banner">
         <div class="container-fluid g-0">
         <div class="image-banner">
-            <img src="images/why_banner.png" class="img-fluid">
-
+            <img src="{{asset('images/why_banner.png')}}" class="img-fluid">
         </div>
         <div class="why-text" >
             <h1>WHY US</h1>          

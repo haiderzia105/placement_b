@@ -7,7 +7,7 @@
     <div class="placement-banner">
         <div class="container-fluid g-0">
         <div class="image-banner">
-            <img src="images/placement-banner.png" class="img-fluid">
+            <img src="{{asset('images/placement-banner.png')}}" class="img-fluid">
 
         </div>
         <div class="placement-text" >
@@ -32,7 +32,7 @@
                     
                 <div class="col-lg-2 col-md-3 col-12">
                     <div class="of-image text-center">
-                        <img src="images/profile-1.png" class="img-fluid">
+                        <img src="{{asset('images/profile-1.png')}}" class="img-fluid">
                     </div></div>
                     <div class="col-lg-10 col-md-9 col-12">
                     <div class="message-box  text-center text-md-start   px-2 px-md-5">
@@ -50,7 +50,7 @@
                     
                 <div class="col-lg-2 col-md-3 col-12">
                     <div class="of-image text-center">
-                        <img src="images/profile-1.png" class="img-fluid">
+                        <img src="{{asset('images/profile-1.png')}}" class="img-fluid">
                     </div></div>
                     <div class="col-lg-10 col-md-9 col-12">
                     <div class="message-box  text-center text-md-start   px-2 px-md-5">
@@ -69,7 +69,7 @@
                     
                 <div class="col-lg-2 col-md-3 col-12">
                     <div class="of-image text-center">
-                        <img src="images/profile-1.png" class="img-fluid">
+                        <img src="{{asset('images/profile-1.png')}}" class="img-fluid">
                     </div></div>
                     <div class="col-lg-10 col-md-9 col-12">
                     <div class="message-box  text-center text-md-start   px-2 px-md-5">
@@ -87,7 +87,7 @@
                                     
                                 <div class="col-lg-2 col-md-3 col-12">
                                     <div class="of-image text-center">
-                                        <img src="images/profile-1.png" class="img-fluid">
+                                        <img src="{{asset('images/profile-1.png')}}" class="img-fluid">
                                     </div></div>
                                     <div class="col-lg-10 col-md-9 col-12">
                                     <div class="message-box  text-center text-md-start   px-2 px-md-5">
@@ -119,7 +119,7 @@
                     <div class="gallery text-center ">
                         <div class="gallery_column first mt-md-5 px-5 px-md-0">
                                 <figure class="gallery_thumb mt-md-5 ms-md-auto">
-                                    <img src="images/picture-00.png"  class="gallery_image jog mt-md-5" >
+                                    <img src="{{asset('images/picture-00.png')}}"  class="gallery_image jog mt-md-5" >
                                 </figure>  
                         </div>
                         
@@ -127,14 +127,14 @@
                             
                 
                             <figure class="gallery_thumb mt-md-5">
-                                <img src="images/picture-1.png"  class="gallery_image  jog-one">
+                                <img src="{{asset('images/image-1.png')}}"  class="gallery_image  jog-one">
                             </figure>  
                             <div class="d-md-flex ">
                                 <figure class="gallery_thumb me-md-2 ">
-                                    <img src="images/picture-02.png"  class="gallery_image jog-four">
+                                    <img src="{{asset('images/picture-02.png')}}"  class="gallery_image jog-four">
                                 </figure>  
                                 <figure class="gallery_thumb">
-                                    <img src="images/picture-03.png"  class="gallery_image jog-six"  >
+                                    <img src="{{asset('images/picture-03.png')}}"  class="gallery_image jog-six"  >
                                 </figure>  
                             </div>
                            
@@ -142,16 +142,16 @@
                         
                     <div class="gallery_column third px-5 px-md-0">
                     <figure class="gallery_thumb ms-md-2 px-md-2 ">
-                        <img src="images/image-2.png"  class="gallery_image jog-two">
+                        <img src="{{asset('images/image-2.png')}}"  class="gallery_image jog-two">
                     </figure>  
             
                     <div class="d-md-flex">
                         <figure class="gallery_thumb me-md-2">
-                            <img src="images/picture-05.png"  class="gallery_image jog-five">
+                            <img src="{{asset('images/picture-05.png')}}"  class="gallery_image jog-five">
                         </figure>  
 
                         <figure class="gallery_thumb ">
-                            <img src="images/picture-06.png"  class="gallery_image jog-seven">
+                            <img src="{{asset('images/picture-06.png')}}"  class="gallery_image jog-seven">
                                     </figure>  
                     </div>  
                     </div>
@@ -171,41 +171,37 @@
         <h1 class="text-center">COLLABORATIONS</h1>
         <div class="row-cols-6  g-0 py-4 text-center">
             
-            <img src="images/zee-1.svg" class="img-fluid pt-3 mx-5">
+            <img src="{{asset('images/zee-1.svg')}}" class="img-fluid pt-3 mx-5">
         
-           
-                <img src="images/zee-2.svg" class="img-fluid pt-3 mx-5">
+                <img src="{{asset('images/zee-2.svg')}}" class="img-fluid pt-3 mx-5">
         
-                <img src="images/zee-3.svg" class="img-fluid pt-3 mx-5">
+                <img src="{{asset('images/zee-3.svg')}}" class="img-fluid pt-3 mx-5">
         
-                <img src="images/zee-4.svg" class="img-fluid pt-3 mx-5">
+                <img src="{{asset('images/zee-4.svg')}}" class="img-fluid pt-3 mx-5">
         
-           
-                <img src="images/zee-5.svg" class="img-fluid pt-4 mx-5">
+                <img src="{{asset('images/zee-5.svg')}}" class="img-fluid pt-4 mx-5">
        
-                <img src="images/zee-6.svg" class="img-fluid pt-3 mx-5">
+                <img src="{{asset('images/zee-6.svg')}}" class="img-fluid pt-3 mx-5">
         
-                <img src="images/zee-7.svg" class="img-fluid pt-4 mx-5">
+                <img src="{{asset('images/zee-7.svg')}}" class="img-fluid pt-4 mx-5">
         
-                <img src="images/zee-8.svg" class="img-fluid pt-4 mx-5">
+                <img src="{{asset('images/zee-8.svg')}}" class="img-fluid pt-4 mx-5">
            
-                <img src="images/zee-9.svg" class="img-fluid pt-4 mx-5">
+                <img src="{{asset('images/zee-9.svg')}}" class="img-fluid pt-4 mx-5">
               
-                <img src="images/zee-10.svg" class="img-fluid pt-4 mx-5">
+                <img src="{{asset('images/zee-10.svg')}}" class="img-fluid pt-4 mx-5">
              
-                <img src="images/zee-11.svg" class="img-fluid pt-4 mx-5">
+                <img src="{{asset('images/zee-11.svg')}}" class="img-fluid pt-4 mx-5">
               
-                <img src="images/zee-12.svg" class="img-fluid pt-4 mx-5">
+                <img src="{{asset('images/zee-12.svg')}}" class="img-fluid pt-4 mx-5">
             
+                <img src="{{asset('images/zee-13.svg')}}" class="img-fluid pt-4 mx-5">
             
-                <img src="images/zee-13.svg" class="img-fluid pt-4 mx-5">
+                <img src="{{asset('images/zee-14.svg')}}" class="img-fluid pt-4 mx-5">
             
-            
-                <img src="images/zee-14.svg" class="img-fluid pt-4 mx-5">
-            
-                <img src="images/zee-15.svg" class="img-fluid pt-4 mx-5 ">
+                <img src="{{asset('images/zee-15.svg')}}" class="img-fluid pt-4 mx-5 ">
                 
-                <img src="images/zee-16.svg" class="img-fluid pt-4 mx-5">
+                <img src="{{asset('images/zee-16.svg')}}" class="img-fluid pt-4 mx-5">
            
                 </div>
               

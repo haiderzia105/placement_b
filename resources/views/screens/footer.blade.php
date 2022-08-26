@@ -50,23 +50,23 @@
         </div>
         </div>
         <div class="row">
-            <div class="col-md-3 second-footer-section text-center d-inline text-white">
-            <img src="https://tuf.edu.pk/Main/frontend/images/homepage/giu.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
-            <p class="text-center" >9th in Pakistan (2021)</p>
-            </div>
-            <div class="col-md-3 second-footer-section text-center d-inline text-white">
-            <img src="https://tuf.edu.pk/Main/frontend/images/homepage/awards.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
-            <p class="ps-md-5" >1st in Private and 4th in all Universities in Pakistan (2020)</p>
-            </div>
-            <div class="col-md-3 second-footer-section text-center d-inline text-white">
-            <img src="https://tuf.edu.pk/Main/frontend/images/homepage/rankings.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
-            <p class="text-center" >Shortlisted (2020)</p>
-            </div>
-            <div class="col-md-3 second-footer-section text-center d-inline text-white">
-            <img src="https://tuf.edu.pk/Main/frontend/images/homepage/greens.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
-            <p class="text-center" >Shortlisted</p>
-            </div>
+        <div class="col-md-3 second-footer-section text-center d-inline text-white">
+        <img src="https://tuf.edu.pk/Main/frontend/images/homepage/giu.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
+        <p class="text-center">9th in Pakistan (2021)</p>
         </div>
+        <div class="col-md-3 second-footer-section text-center d-inline text-white">
+        <img src="https://tuf.edu.pk/Main/frontend/images/homepage/awards.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
+        <p class="ps-md-5">1st in Private and 4th in all Universities in Pakistan (2020)</p>
+        </div>
+        <div class="col-md-3 second-footer-section text-center d-inline text-white">
+        <img src="https://tuf.edu.pk/Main/frontend/images/homepage/rankings.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
+        <p class="text-center">Shortlisted (2020)</p>
+        </div>
+        <div class="col-md-3 second-footer-section text-center d-inline text-white">
+        <img src="https://tuf.edu.pk/Main/frontend/images/homepage/greens.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
+        <p class="text-center">Shortlisted</p>
+        </div>
+        </div>  
         </div>
     </div>
 

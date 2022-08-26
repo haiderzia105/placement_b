@@ -103,21 +103,16 @@
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle ms-sm-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">ACADEMIC</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownToggle">
-                     
-
-                         
+          
                         <li><a href="#" class="dropdown-item mx-2">FACULTY CATALOGUE</a></li>
-                  
-                     
+                       
                         <li><a href="#" class="dropdown-item ">RESEARCH & ADVANCE <br>STUDIES</a></li>
-                     
-                    
+                          
                         <li><a href="#" class="dropdown-item mx-2">ACADEMIC CALENDAR</a></li>
-                      
-                     
+                       
                         <li><a href="#" class="dropdown-item">INTERNATIONAL STUDENTS</a></li>
                        
-                        <li><a href="#" class="dropdown-item mx-2">CENTER OF EXECUTIVE<br> LEARNING (CEL) </a></li>
+                        <li><a href="#" class="dropdown-item mx-2">CENTER OF EXECUTIVE<br>LEARNING (CEL)</a></li>
              
                         <li><a href="#" class="dropdown-item">THESIS GUIDELINES</a></li>
                         </ul> </li>  
@@ -135,11 +130,9 @@
                                 <li><a href="#" class="dropdown-item">LEARNING RESOURCE <br>CENTER</a></li>
                     
                        
-                                <li><a href="#" class="dropdown-item">INFORMATION <br>PROCESSING CENTER</a></li>
-                      
-                           
-                                <li><a href="#" class="dropdown-item">FM TUFIAN'S 96.6</a></li>
-                         
+                                    <li><a href="#" class="dropdown-item">INFORMATION <br>PROCESSING CENTER</a></li>
+                       
+                                    <li><a href="#" class="dropdown-item">FM TUFIAN'S 96.6</a></li>             
                               
                                     <li><a href="#" class="dropdown-item">ADVICE & COUNSELING</a></li>
                           
@@ -205,7 +198,7 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle ms-sm-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">HOME</a>
                    <ul class="dropdown-menu" aria-labelledby="dropdownToggle">
-                       <li><a href="#" class="dropdown-item">1</a></li>
+                       <li><a href="{{route('home')}}" class="dropdown-item">1</a></li>
                        <li><a href="#" class="dropdown-item">2</a></li>
                        <li><a href="#" class="dropdown-item">3</a></li>
                    </ul>
@@ -214,7 +207,7 @@
                    <li class="nav-item dropdown">
                         <a href="" class="nav-link dropdown-toggle ms-sm-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">ACCREDITATIONS & COLLABORATIONS</a>
                    <ul class="dropdown-menu" aria-labelledby="dropdownToggle">
-                       <li><a href="#"   class="dropdown-item">1</a></li>
+                       <li><a href="{{route('collab')}}"   class="dropdown-item">1</a></li>
                        <li><a href="#"   class="dropdown-item">2</a></li>
                        <li><a href="#"   class="dropdown-item">3</a></li>
                    </ul>
@@ -223,7 +216,7 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle ms-sm-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">WHY US</a>
                    <ul class="dropdown-menu" aria-labelledby="dropdownToggle">
-                       <li><a href="why.html" class="dropdown-item">1</a></li>
+                       <li><a href="{{route('why')}}" class="dropdown-item">1</a></li>
                        <li><a href="#" class="dropdown-item">2</a></li>
                        <li><a href="#" class="dropdown-item">3</a></li>
                    </ul>
