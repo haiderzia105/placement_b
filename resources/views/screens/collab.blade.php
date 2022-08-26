@@ -31,46 +31,46 @@
     
     
     <div class="collab-zone mt-5">
+    <div class="container mt-4">
+        <h1>COLLABORATIONS</h1>
+    </div>
+        <div class="container-fluid  g-0">
+          
+            <div class="row-cols-6  g-0 py-4 text-center">
+            
+                <img src="{{asset('images/zee-1.svg')}}" class="img-fluid pt-3 mx-5">
     
-        <div class="container-fluid mt-5 g-0">
-            <h1 class="text-start mx-sm-5 px-sm-5 mx-3">COLLABORATIONS</h1>
-        <div class="row-cols-6  g-0 py-4 text-center">
-            
-            <img src="{{asset('images/zee-1.svg')}}" class="img-fluid pt-3 mx-5">
-        
-           
                 <img src="{{asset('images/zee-2.svg')}}" class="img-fluid pt-3 mx-5">
-        
+    
                 <img src="{{asset('images/zee-3.svg')}}" class="img-fluid pt-3 mx-5">
-        
+    
                 <img src="{{asset('images/zee-4.svg')}}" class="img-fluid pt-3 mx-5">
-        
-           
-                <img src="{{asset('images/zee-5.svg')}}" class="img-fluid pt-4 mx-5">
-       
+    
+                <img src="{{asset('images/zee-5.svg')}}" class="img-fluid pt-3 mx-5">
+    
                 <img src="{{asset('images/zee-6.svg')}}" class="img-fluid pt-3 mx-5">
-        
-                <img src="{{asset('images/zee-7.svg')}}" class="img-fluid pt-4 mx-5">
-        
-                <img src="{{asset('images/zee-8.svg')}}" class="img-fluid pt-4 mx-5">
-           
-                <img src="{{asset('images/zee-9.svg')}}" class="img-fluid pt-4 mx-5">
-              
-                <img src="{{asset('images/zee-10.svg')}}" class="img-fluid pt-4 mx-5">
-             
-                <img src="{{asset('images/zee-11.svg')}}" class="img-fluid pt-4 mx-5">
-              
-                <img src="{{asset('images/zee-12.svg')}}" class="img-fluid pt-4 mx-5">
-              
-                <img src="{{asset('images/zee-13.svg')}}" class="img-fluid pt-4 mx-5">
-
-                <img src="{{asset('images/zee-14.svg')}}" class="img-fluid pt-4 mx-5">
+    
+                <img src="{{asset('images/zee-7.svg')}}" class="img-fluid pt-3 mx-5">
+    
+                <img src="{{asset('images/zee-8.svg')}}" class="img-fluid pt-5 mx-5">
             
-                <img src="{{asset('images/zee-15.svg')}}" class="img-fluid pt-4 mx-5 ">
+                <img src="{{asset('images/zee-9.svg')}}" class="img-fluid pt-5 mx-5">
                 
-                <img src="{{asset('images/zee-16.svg')}}" class="img-fluid pt-4 mx-5">
-           
-                </div>
+                <img src="{{asset('images/zee-10.svg')}}" class="img-fluid pt-5 mx-5">
+                
+                <img src="{{asset('images/zee-11.svg')}}" class="img-fluid pt-5 mx-5">
+                
+                <img src="{{asset('images/zee-12.svg')}}" class="img-fluid pt-5 mx-5">
+            
+                <img src="{{asset('images/zee-13.svg')}}" class="img-fluid pt-5 mx-5">
+            
+                <img src="{{asset('images/zee-14.svg')}}" class="img-fluid pt-5 mx-5">
+            
+                <img src="{{asset('images/zee-15.svg')}}" class="img-fluid pt-5 mx-5 ">
+                
+                <img src="{{asset('images/zee-16.svg')}}" class="img-fluid pt-5 mx-5">
+               
+            </div>
               
             </div>
             

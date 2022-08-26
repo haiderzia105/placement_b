@@ -107,23 +107,23 @@
         <div class="container g-0">
         <div class="row g-0">
         <div class="col-lg-5 col-12 ">
-            <div class="success-text my-sm-5 mx-5 ">
+            <div class="success-text my-md-5 mx-sm-5 mx-2 ">
             <h2 class="pt-4">SUCCESS STORIES FROM OURSTUDENTS </h2>
             <p class="mt-4 pe-sm-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam</p>
-            <button class="btn btn-secondary view mt-4"><i class="fa fa-angle-right me-3" aria-hidden="true"></i><span>View all</span></button>
+            <button class="btn btn-secondary view mt-4 mb-3"><i class="fa fa-angle-right me-3" aria-hidden="true"></i><span>View all</span></button>
         </div>
         </div>
          <div class="col-lg-7 col-12 ">
             <div class="container ">
                 <div class="row g-0">
                     <div class="gallery text-center ">
-                        <div class="gallery_column first mt-md-5 px-5 px-md-0">
+                        <div class="gallery_column first mt-md-5 px-2 px-sm-5 px-md-0">
                                 <figure class="gallery_thumb mt-md-5 ms-md-auto">
                                     <img src="{{asset('images/picture-00.png')}}"  class="gallery_image jog mt-md-5" >
                                 </figure>  
                         </div>
                         
-                        <div class="gallery_column second mt-md-5 mx-md-3 px-5 px-md-0" >
+                        <div class="gallery_column second mt-md-5 mx-md-3 px-2 px-sm-5 px-md-0" >
                             
                 
                             <figure class="gallery_thumb mt-md-5">
@@ -140,7 +140,7 @@
                            
                         </div>
                         
-                    <div class="gallery_column third px-5 px-md-0">
+                    <div class="gallery_column third px-2 px-sm-5 px-md-0">
                     <figure class="gallery_thumb ms-md-2 px-md-2 ">
                         <img src="{{asset('images/image-2.png')}}"  class="gallery_image jog-two">
                     </figure>  
@@ -172,42 +172,42 @@
         <div class="row-cols-6  g-0 py-4 text-center">
             
             <img src="{{asset('images/zee-1.svg')}}" class="img-fluid pt-3 mx-5">
+
+            <img src="{{asset('images/zee-2.svg')}}" class="img-fluid pt-3 mx-5">
+
+            <img src="{{asset('images/zee-3.svg')}}" class="img-fluid pt-3 mx-5">
+
+            <img src="{{asset('images/zee-4.svg')}}" class="img-fluid pt-3 mx-5">
+
+            <img src="{{asset('images/zee-5.svg')}}" class="img-fluid pt-4 mx-5">
+
+            <img src="{{asset('images/zee-6.svg')}}" class="img-fluid pt-3 mx-5">
+
+            <img src="{{asset('images/zee-7.svg')}}" class="img-fluid pt-4 mx-5">
+
+            <img src="{{asset('images/zee-8.svg')}}" class="img-fluid pt-4 mx-5">
         
-                <img src="{{asset('images/zee-2.svg')}}" class="img-fluid pt-3 mx-5">
+            <img src="{{asset('images/zee-9.svg')}}" class="img-fluid pt-4 mx-5">
+            
+            <img src="{{asset('images/zee-10.svg')}}" class="img-fluid pt-4 mx-5">
+            
+            <img src="{{asset('images/zee-11.svg')}}" class="img-fluid pt-4 mx-5">
+            
+            <img src="{{asset('images/zee-12.svg')}}" class="img-fluid pt-4 mx-5">
         
-                <img src="{{asset('images/zee-3.svg')}}" class="img-fluid pt-3 mx-5">
+            <img src="{{asset('images/zee-13.svg')}}" class="img-fluid pt-4 mx-5">
         
-                <img src="{{asset('images/zee-4.svg')}}" class="img-fluid pt-3 mx-5">
+            <img src="{{asset('images/zee-14.svg')}}" class="img-fluid pt-4 mx-5">
         
-                <img src="{{asset('images/zee-5.svg')}}" class="img-fluid pt-4 mx-5">
-       
-                <img src="{{asset('images/zee-6.svg')}}" class="img-fluid pt-3 mx-5">
-        
-                <img src="{{asset('images/zee-7.svg')}}" class="img-fluid pt-4 mx-5">
-        
-                <img src="{{asset('images/zee-8.svg')}}" class="img-fluid pt-4 mx-5">
+            <img src="{{asset('images/zee-15.svg')}}" class="img-fluid pt-4 mx-5 ">
+            
+            <img src="{{asset('images/zee-16.svg')}}" class="img-fluid pt-4 mx-5">
            
-                <img src="{{asset('images/zee-9.svg')}}" class="img-fluid pt-4 mx-5">
-              
-                <img src="{{asset('images/zee-10.svg')}}" class="img-fluid pt-4 mx-5">
-             
-                <img src="{{asset('images/zee-11.svg')}}" class="img-fluid pt-4 mx-5">
-              
-                <img src="{{asset('images/zee-12.svg')}}" class="img-fluid pt-4 mx-5">
-            
-                <img src="{{asset('images/zee-13.svg')}}" class="img-fluid pt-4 mx-5">
-            
-                <img src="{{asset('images/zee-14.svg')}}" class="img-fluid pt-4 mx-5">
-            
-                <img src="{{asset('images/zee-15.svg')}}" class="img-fluid pt-4 mx-5 ">
-                
-                <img src="{{asset('images/zee-16.svg')}}" class="img-fluid pt-4 mx-5">
-           
-                </div>
-              
-            </div>
-            
         </div>
+              
+        </div>
+            
+    </div>
    
 
 </div>

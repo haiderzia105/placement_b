@@ -234,6 +234,7 @@
 .placement-wrapper .mess {
     font-family: "Poppins-Bold";
     color: var(--bs-red);
+    font-size: clamp(1.8rem, 2.5vw, 2.8rem);
 }
 
 .placement-wrapper .placement-message .of-image img{
@@ -249,6 +250,7 @@
 .placement-wrapper .placement-success .success-text h2{
     font-family: "Poppins-Bold";
     color:var(--bs-red);
+    font-size: clamp(1.8rem, 2.5vw, 2.8rem);
 }
 
 .placement-wrapper .placement-success .success-text p{
@@ -473,11 +475,11 @@
 }
  .placement-wrapper .placement-success .gallery_column .jog-five{
     width: 70px;
-    height: 105px;
+    height: 100px;
     object-fit: cover;
 }
 .placement-wrapper .placement-success .gallery_column .jog-six{
-    width: 150%;
+    width: 148%;
     object-fit: cover;
 }
 .placement-wrapper .placement-success .gallery_column .jog-seven{
@@ -564,7 +566,13 @@
  background-color: var(--bs-light-black);
 }
 
-
+.placement-wrapper .why-whole .why-objective .object-list li::before{
+    content: "\e900";
+    font-family: icomoon;
+    color: #c3212a;
+    margin-right: 40px;
+    margin-left:5px;
+}
 
 
 
