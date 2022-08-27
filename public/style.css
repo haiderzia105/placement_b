@@ -487,6 +487,7 @@
 }
 .placement-wrapper .placement-success .gallery_column .jog-six{
     width: 148%;
+    height: 225px;
     object-fit: cover;
 }
 .placement-wrapper .placement-success .gallery_column .jog-seven{
@@ -494,14 +495,6 @@
     height: 220px;
     object-fit: cover;
 }
- 
-
-
-
-
-
-
-
 
 
 
@@ -535,7 +528,6 @@
     color: var(--bs-white);
     font-size: 4.0rem;
 }
-
 .placement-wrapper .intro-text h1{
     font-family: "Poppins-Bold";
     color: var(--bs-red);
@@ -546,7 +538,6 @@
     font-size: 1.25rem;
     text-align: justify;
 }
-
 .placement-wrapper .why-whole{
     background-color: var(--bs-offwhite);
 }
@@ -557,9 +548,10 @@
 .placement-wrapper .why-whole .why-objective .object-text p{
     font-family: "Poppins-Regular";
     color: var(--bs-light-black);
-    font-size: 1.25rem;
+    font-size:  1.25rem;
     text-align: justify;
 }
+
 
 .placement-wrapper .why-whole .why-objective .object-list{
     list-style-type: none;
