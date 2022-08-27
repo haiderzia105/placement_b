@@ -213,7 +213,7 @@
     width: 100%;
 }
 .placement-wrapper .placement-message {
-    border: 3px solid black;
+    border: 5px solid black;
     margin-left: 9rem;
 }
 
@@ -225,6 +225,7 @@
     font-family: "Poppins-Regular";
     color: var(--bs-light-black);
     font-size: 1.25rem;
+    text-align: justify;
 }
 .placement-wrapper .placement-message .message-box .text-message a{
     font-family:"Poppins-Semi_italic";
@@ -242,8 +243,8 @@
     position: absolute;
     top: 10%;
     left: -15%;
-    transform: translate(12%,5%);
-    border: 2px solid black;
+    transform: translate(12%,17%);
+    border: 3px solid black;
 }
 
  
@@ -254,7 +255,7 @@
 }
 
 .placement-wrapper .placement-success .success-text p{
-    font-family: "Poppins-Regular";
+    font-family:"Poppins-Regular";
     color:var(--bs-light-black);
     font-size: 1.25rem;
     text-align: justify;
@@ -288,25 +289,24 @@
     display: block;
     width: 100%;
     transition: 0.3s;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 8px;
 }
 .owl-theme .owl-dots, .owl-theme .owl-nav{
-   position: relative;
-   top: -90px;
+    position: relative;
+    top:-90px;
+    margin-left: 170px;
 }
 .owl-theme .owl-nav {
-    display: none;
+    display:none;
 }
 .owl-theme .owl-dots .owl-dot.active span{
     background: #C3212A;
 }
-
 .placement-wrapper .placement-collab h1{
     font-family: "Poppins-Bold";
     color: var(--bs-red);
 }
-
 .placement-wrapper .placement-collab img{
     width: 100px;
 }
@@ -330,6 +330,7 @@
     font-family: Poppins-Light;
     position: relative;
     color: #000;
+
 }
 
 .placement-wrapper .footer .second-footer-section p {
@@ -603,7 +604,7 @@
         top: 10%;
         left: -13%;
         transform: translate(-19%,5%);
-        border: 2px solid black;
+        border: 3px solid black;
     }
     .placement-wrapper .placement-third .nav-item .nav-link {
         color: var(--bs-grey);
@@ -719,7 +720,11 @@
     .placement-wrapper .footer .second-footer-section:nth-child(4)::before{
        display: none;
     }
-    
+    .owl-theme .owl-dots, .owl-theme .owl-nav{
+        position: relative;
+        top:-90px;
+        margin-left: 0px;
+    }
 }
 
 

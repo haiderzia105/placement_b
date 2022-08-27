@@ -1,7 +1,11 @@
 @extends('welcome')
 
 @section('content')
-    
+<style>
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        background: black
+    }
+</style>   
 
 <div class="placement-wrapper">
     <div class="placement-banner">
@@ -31,11 +35,11 @@
                     <div class="row g-0">
                     
                 <div class="col-lg-2 col-md-3 col-12">
-                    <div class="of-image text-center">
+                    <div class="of-image text-center ">
                         <img src="{{asset('images/profile-1.png')}}" class="img-fluid">
                     </div></div>
                     <div class="col-lg-10 col-md-9 col-12">
-                    <div class="message-box  text-center text-md-start   px-2 px-md-5">
+                    <div class="message-box  text-center text-md-start py-5  px-2 px-md-5">
                       
                        
                         <div class="text-message   pt-3 px-lg-2">
@@ -53,7 +57,7 @@
                         <img src="{{asset('images/profile-1.png')}}" class="img-fluid">
                     </div></div>
                     <div class="col-lg-10 col-md-9 col-12">
-                    <div class="message-box  text-center text-md-start   px-2 px-md-5">
+                    <div class="message-box  text-center text-md-start py-5  px-2 px-md-5">
                       
                        
                         <div class="text-message   pt-3 px-lg-2">
@@ -72,7 +76,7 @@
                         <img src="{{asset('images/profile-1.png')}}" class="img-fluid">
                     </div></div>
                     <div class="col-lg-10 col-md-9 col-12">
-                    <div class="message-box  text-center text-md-start   px-2 px-md-5">
+                    <div class="message-box  text-center text-md-start py-5  px-2 px-md-5">
                       
                        
                         <div class="text-message   pt-3 px-lg-2">
@@ -90,7 +94,7 @@
                                         <img src="{{asset('images/profile-1.png')}}" class="img-fluid">
                                     </div></div>
                                     <div class="col-lg-10 col-md-9 col-12">
-                                    <div class="message-box  text-center text-md-start   px-2 px-md-5">
+                                    <div class="message-box  text-center text-md-start py-5  px-2 px-md-5">
                                       
                                        
                                         <div class="text-message   pt-3 px-lg-2">
@@ -107,10 +111,10 @@
         <div class="container g-0">
         <div class="row g-0">
         <div class="col-lg-5 col-12 ">
-            <div class="success-text my-md-5 mx-sm-5 mx-2 ">
+            <div class="success-text my-md-5 mx-md-5 mx-2 ">
             <h2 class="pt-4">SUCCESS STORIES FROM OURSTUDENTS </h2>
-            <p class="mt-4 pe-sm-5 me-sm-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam</p>
-            <button class="btn btn-secondary view mt-4 mb-3"><i class="fa fa-angle-right me-3" aria-hidden="true"></i><span>View all</span></button>
+            <p class="mt-4 pe-sm-5 me-lg-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam</p>
+            <button class="btn btn-secondary view mt-4 mb-3"><i class="fa fa-angle-right me-3" aria-hidden="true"></i><span>VIEW ALL</span></button>
         </div>
         </div>
          <div class="col-lg-7 col-12 ">
@@ -169,39 +173,39 @@
     <div class="placement-collab mt-5">
         <div class="container-fluid mt-5 g-0">
         <h1 class="text-center">COLLABORATIONS</h1>
-        <div class="row-cols-6  g-0 py-4 text-center">
+        <div class="row-cols-6  g-0 pt-2 pb-5 text-center">
             
-            <img src="{{asset('images/zee-1.svg')}}" class="img-fluid pt-3 mx-5">
+            <img src="{{asset('images/zee-1.svg')}}" class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-2.svg')}}" class="img-fluid pt-3 mx-5">
+            <img src="{{asset('images/zee-2.svg')}}" class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-3.svg')}}" class="img-fluid pt-3 mx-5">
+            <img src="{{asset('images/zee-3.svg')}}" class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-4.svg')}}" class="img-fluid pt-3 mx-5">
+            <img src="{{asset('images/zee-4.svg')}}" class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-5.svg')}}" class="img-fluid pt-4 mx-5">
+            <img src="{{asset('images/zee-5.svg')}}" class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-6.svg')}}" class="img-fluid pt-3 mx-5">
+            <img src="{{asset('images/zee-6.svg')}}" class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-7.svg')}}" class="img-fluid pt-4 mx-5">
+            <img src="{{asset('images/zee-7.svg')}}" class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-8.svg')}}" class="img-fluid pt-4 mx-5">
+            <img src="{{asset('images/zee-8.svg')}}" class="img-fluid pt-5 mx-5">
         
-            <img src="{{asset('images/zee-9.svg')}}" class="img-fluid pt-4 mx-5">
+            <img src="{{asset('images/zee-9.svg')}}" class="img-fluid pt-5 mx-5">
             
-            <img src="{{asset('images/zee-10.svg')}}" class="img-fluid pt-4 mx-5">
+            <img src="{{asset('images/zee-10.svg')}}" class="img-fluid pt-5 mx-5">
             
-            <img src="{{asset('images/zee-11.svg')}}" class="img-fluid pt-4 mx-5">
+            <img src="{{asset('images/zee-11.svg')}}" class="img-fluid pt-5 mx-5">
             
-            <img src="{{asset('images/zee-12.svg')}}" class="img-fluid pt-4 mx-5">
+            <img src="{{asset('images/zee-12.svg')}}" class="img-fluid pt-5 mx-5">
         
-            <img src="{{asset('images/zee-13.svg')}}" class="img-fluid pt-4 mx-5">
+            <img src="{{asset('images/zee-13.svg')}}" class="img-fluid pt-5 mx-5">
         
-            <img src="{{asset('images/zee-14.svg')}}" class="img-fluid pt-4 mx-5">
+            <img src="{{asset('images/zee-14.svg')}}" class="img-fluid pt-5 mx-5">
         
-            <img src="{{asset('images/zee-15.svg')}}" class="img-fluid pt-4 mx-5 ">
+            <img src="{{asset('images/zee-15.svg')}}" class="img-fluid pt-5 mx-5 ">
             
-            <img src="{{asset('images/zee-16.svg')}}" class="img-fluid pt-4 mx-5">
+            <img src="{{asset('images/zee-16.svg')}}" class="img-fluid pt-5 mx-5">
            
         </div>
               
