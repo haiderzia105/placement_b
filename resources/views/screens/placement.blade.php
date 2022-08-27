@@ -129,7 +129,6 @@
                         
                         <div class="gallery_column second mt-md-5 mx-md-3 px-2 px-sm-5 px-md-0" >
                             
-                
                             <figure class="gallery_thumb mt-md-5">
                                 <img src="{{asset('images/image-1.png')}}"  class="gallery_image  jog-one">
                             </figure>  
@@ -138,10 +137,9 @@
                                     <img src="{{asset('images/picture-02.png')}}"  class="gallery_image jog-four">
                                 </figure>  
                                 <figure class="gallery_thumb">
-                                    <img src="{{asset('images/picture-03.png')}}"  class="gallery_image jog-six"  >
+                                    <img src="{{asset('images/picture-03.png')}}"  class="gallery_image jog-six">
                                 </figure>  
-                            </div>
-                           
+                            </div>                        
                         </div>
                         
                     <div class="gallery_column third px-2 px-sm-5 px-md-0">
@@ -153,10 +151,9 @@
                         <figure class="gallery_thumb me-md-2">
                             <img src="{{asset('images/picture-05.png')}}"  class="gallery_image jog-five">
                         </figure>  
-
-                        <figure class="gallery_thumb ">
+                        <figure class="gallery_thumb mt-md-3">
                             <img src="{{asset('images/picture-06.png')}}"  class="gallery_image jog-seven">
-                                    </figure>  
+                        </figure>  
                     </div>  
                     </div>
                     
