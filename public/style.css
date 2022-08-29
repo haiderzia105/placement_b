@@ -340,6 +340,22 @@
     position: relative;
     color: #000;
 }
+.placement-wrapper .footer .second-footer-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.placement-wrapper .footer .second-footer-section:not(:last-of-type)::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 75%;
+    right: 0;
+    background: #fff;
+    top: 50%;
+    transform: translate(0,-50%);
+}
 .placement-wrapper .footer .second-footer-section p {
     font-family: Poppins-Regular;
     font-size: 12px;
@@ -392,43 +408,22 @@
     color: var(--bs-offwhite);
     font-family: "Poppins Regular";
 }
-.placement-wrapper .footer .second-footer-section:nth-child(2)::before{
-    content: "";
-    position: absolute;
-    width: 2px;
-    height: 30%;
-    /* right: 0; */
-    background: #fff;
-    top: 80%;
-    transform: translate(0, -80%);
+
+
+/* .placement-wrapper .top-bar .dropdown .dropdown-menu:focus{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0;
+    padding: 0.5rem;
+    border-radius: 0;
+    background-color: #333333;
+    min-width: 8.8rem;
+    transform: translate(0px, 40px) !important;
+    inset: 0px auto auto 0px;
 }
-.placement-wrapper .footer .second-footer-section:nth-child(3)::before{
-    content: "";
-    position: absolute;
-    width: 2px;
-    height: 30%;
-    /* right: 0; */
-    background: #fff;
-    top: 80%;
-    transform: translate(0, -80%);
-}
-.placement-wrapper .footer .second-footer-section:nth-child(4)::before{
-    content: "";
-    position: absolute;
-    width: 2px;
-    height: 30%;
-    /* right: 0; */
-    background: #fff;
-    top: 80%;
-    transform: translate(0, -80%);
-}
-
-
-
-
-
-
-
+.placement-wrapper .top-bar .dropdown .dropdown-menu li a{
+    color: white;
+} */
 
 
 
@@ -487,8 +482,8 @@
 }
 .placement-wrapper .placement-success .gallery_column .jog-six{
     width: 148%;
-    height: 225px;
-    object-fit: cover;
+    height: 210px;
+    object-fit: cover;  
 }
 .placement-wrapper .placement-success .gallery_column .jog-seven{
     width: 120%;
@@ -552,13 +547,12 @@
     text-align: justify;
 }
 
-
 .placement-wrapper .why-whole .why-objective .object-list{
     list-style-type: none;
 }
 .placement-wrapper .why-whole .why-objective .object-list li{
    font-family: "Poppins-Regular";
-   font-size: 1.25rem;
+   font-size:  1.25rem;
    text-align: justify;
 }
 .placement-wrapper .placement-success .view{
@@ -608,36 +602,8 @@
         color: var(--bs-grey);
         font-family: "Poppins-Bold";
     }
-    .placement-wrapper .footer .second-footer-section:nth-child(2)::before{
-        content: "";
-        position: absolute;
-        width: 2px;
-        height: 30%;
-        /* right: 0; */
-        background: #fff;
-        top: 95%;
-        transform: translate(0, -95%);
-    }
-    .placement-wrapper .footer .second-footer-section:nth-child(3)::before{
-        content: "";
-        position: absolute;
-        width: 2px;
-        height: 30%;
-        /* right: 0; */
-        background: #fff;
-        top: 95%;
-        transform: translate(0, -95%);
-    }
-    .placement-wrapper .footer .second-footer-section:nth-child(4)::before{
-        content: "";
-        position: absolute;
-        width: 2px;
-        height: 30%;
-        /* right: 0; */
-        background: #fff;
-        top: 95%;
-        transform: translate(0, -95%);
-    }    
+  
+
     .placement-wrapper .second-bar .navbar .navbar-nav .nav-item .dropdown-menu {
         background-color: var(--bs-light-black);
         width: 350px;
@@ -719,15 +685,7 @@
         right: auto;
         transform: translateX(0%);
     }
-    .placement-wrapper .footer .second-footer-section:nth-child(2)::before{
-        display: none;
-    }
-    .placement-wrapper .footer .second-footer-section:nth-child(3)::before{
-        display: none;
-    }
-    .placement-wrapper .footer .second-footer-section:nth-child(4)::before{
-       display: none;
-    }
+
     .owl-theme .owl-dots, .owl-theme .owl-nav{
         position: relative;
         top:-90px;
