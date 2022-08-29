@@ -58,8 +58,7 @@
                     </div></div>
                     <div class="col-lg-10 col-md-9 col-12">
                     <div class="message-box  text-center text-md-start py-5  px-2 px-md-5">
-                      
-                       
+                        
                         <div class="text-message   pt-3 px-lg-2">
                             <h3>OMER FAROOQ QURESHI</h3>
                             <p class="pt-4">Assuring the success of all of our graduates! students at the University of Faisalabad  engages in career exploration to enrich their student life experience, allow them to  realise the value of education and career development, and attain their career ojectives, contributing productively to society.</p>
@@ -172,23 +171,23 @@
         <h1 class="text-center">COLLABORATIONS</h1>
         <div class="row-cols-6  g-0 pt-2 pb-5 text-center">
             
-            <img src="{{asset('images/zee-1.svg')}}" class="img-fluid pt-5 mx-5">
+            <img src="{{asset('images/zee-1.svg')}}"  class="img-fluid pt-5 mx-5">
+            
+            <img src="{{asset('images/zee-2.svg')}}"  class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-2.svg')}}" class="img-fluid pt-5 mx-5">
+            <img src="{{asset('images/zee-3.svg')}}"  class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-3.svg')}}" class="img-fluid pt-5 mx-5">
+            <img src="{{asset('images/zee-4.svg')}}"  class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-4.svg')}}" class="img-fluid pt-5 mx-5">
+            <img src="{{asset('images/zee-5.svg')}}"  class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-5.svg')}}" class="img-fluid pt-5 mx-5">
+            <img src="{{asset('images/zee-6.svg')}}"  class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-6.svg')}}" class="img-fluid pt-5 mx-5">
+            <img src="{{asset('images/zee-7.svg')}}"  class="img-fluid pt-5 mx-5">
 
-            <img src="{{asset('images/zee-7.svg')}}" class="img-fluid pt-5 mx-5">
-
-            <img src="{{asset('images/zee-8.svg')}}" class="img-fluid pt-5 mx-5">
+            <img src="{{asset('images/zee-8.svg')}}"  class="img-fluid pt-5 mx-5">
         
-            <img src="{{asset('images/zee-9.svg')}}" class="img-fluid pt-5 mx-5">
+            <img src="{{asset('images/zee-9.svg')}}"  class="img-fluid pt-5 mx-5">
             
             <img src="{{asset('images/zee-10.svg')}}" class="img-fluid pt-5 mx-5">
             

@@ -9,12 +9,11 @@
         <div class="container-fluid g-0">
         <div class="image-banner">
             <img src="{{asset('images/collab_banner.png')}}" class="img-fluid">
-    
         </div>
         <div class="collab-text" >
             <h1>ACCREDITATIONS &</h1>  
             <h1>COLLABORATIONS</h1>               
-            </div>
+        </div>
         </div>
     
         <div class="icon-vertical text-center d-flex flex-column me-4 d-none d-sm-block">
@@ -25,10 +24,7 @@
         </div>
     </div>
     
-    
-    
-    
-    
+
     
     <div class="collab-zone mt-5">
     <div class="container mt-4">

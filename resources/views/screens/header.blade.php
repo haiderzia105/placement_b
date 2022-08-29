@@ -11,7 +11,7 @@
         <li class="nav-item bg-yellow">
         <a class="nav-link" href="https://admission.tuf.edu.pk/">Apply online</a>
         </li>
-        <li class="nav-item ">
+        <li class="nav-item">
         <a class="nav-link" href="https://umdc.pk/">UMDC</a>
         </li>
         <li class="nav-item">
@@ -54,7 +54,7 @@
                         <div class="navbar-brand m-auto"></div>
                         <ul class="navbar-nav  me-3">
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle ms-sm-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">ABOUT TUF</a>
+                            <a href="#" class="nav-link dropdown-toggle ms-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">ABOUT TUF</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownToggle">
                         <li><a href="#" class="dropdown-item mx-2">INTRODUCING TUF</a></li>
                        <li><a href="#" class="dropdown-item ">HISTORY OF FAISALABAD</a></li>
@@ -67,7 +67,7 @@
                         </li>
                         
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle ms-sm-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">ADMISSION</a>
+                            <a href="#" class="nav-link dropdown-toggle ms-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">ADMISSION</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownToggle">
                         
                      
@@ -101,7 +101,7 @@
                         </li>
                         
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle ms-sm-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">ACADEMIC</a>
+                            <a href="#" class="nav-link dropdown-toggle ms-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">ACADEMIC</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownToggle">
           
                         <li><a href="#" class="dropdown-item mx-2">FACULTY CATALOGUE</a></li>
@@ -120,7 +120,7 @@
 
                         
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle ms-sm-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">OFFICES</a>
+                            <a href="#" class="nav-link dropdown-toggle ms-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">OFFICES</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownToggle">
                   
                     
@@ -162,7 +162,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle ms-sm-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">PUBLICATIONS</a>
+                            <a href="#" class="nav-link dropdown-toggle ms-2 ms-lg-0"  id="dropdownToggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">PUBLICATIONS</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownToggle">
                             <li><a href="#" class="dropdown-item">NEWS LETTERS</a></li>
                             <li><a href="#" class="dropdown-item">BROUCHURE</a></li>
@@ -173,7 +173,7 @@
                         </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link ms-sm-2 ms-lg-0"><i class="fa fa-search"  aria-hidden="true"></i></a>
+                            <a href="#" class="nav-link ms-2 ms-lg-0"><i class="fa fa-search"  aria-hidden="true"></i></a>
                         </li>
                         </ul>
                         </div>
