@@ -65,19 +65,16 @@
                             <h3 class="pt-4"><a href="#" class="place">Manager Placement Bureau</a></h3>
                         </div></div></div></div></div></div>
 
-
                 <div class="item">
                 <div class="placement-message mb-5 mt-2 px-5  py-5 ">
-                    <div class="row g-0">
-                    
+                <div class="row g-0">    
                 <div class="col-lg-2 col-md-3 col-12">
                     <div class="of-image text-center">
                         <img src="{{asset('images/profile-1.png')}}" class="img-fluid">
                     </div></div>
                     <div class="col-lg-10 col-md-9 col-12">
                     <div class="message-box  text-center text-md-start py-5  px-2 px-md-5">
-                      
-                       
+    
                         <div class="text-message   pt-3 px-lg-2">
                             <h3>OMER FAROOQ QURESHI</h3>
                             <p class="pt-4">Assuring the success of all of our graduates! students at the University of Faisalabad  engages in career exploration to enrich their student life experience, allow them to  realise the value of education and career development, and attain their career ojectives, contributing productively to society.</p>
@@ -100,9 +97,8 @@
                                             <h3>OMER FAROOQ QURESHI</h3>
                                             <p class="pt-4">Assuring the success of all of our graduates! students at the University of Faisalabad  engages in career exploration to enrich their student life experience, allow them to  realise the value of education and career development, and attain their career ojectives, contributing productively to society.</p>
                                             <h3 class="pt-4"><a href="#" class="place ">Manager Placement Bureau</a></h3>
-                                        </div></div></div></div></div></div>
-
-
+                                        </div></div></div></div></div>
+                                    </div>
         </div>
     </div> 
 
@@ -111,7 +107,7 @@
         <div class="row g-0">
         <div class="col-lg-5 col-12 ">
             <div class="success-text my-md-5 mx-md-5 mx-2 ">
-            <h2 class="pt-4">SUCCESS STORIES FROM OURSTUDENTS </h2>
+            <h2 class="pt-4">SUCCESS STORIES FROM OURSTUDENTS</h2>
             <p class="mt-4 pe-md-5 me-lg-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam</p>
             <button class="btn btn-secondary view mt-4 mb-3"><i class="fa fa-angle-right me-3" aria-hidden="true"></i><span>VIEW ALL</span></button>
         </div>
@@ -169,46 +165,92 @@
     <div class="placement-collab mt-5">
         <div class="container-fluid mt-5 g-0">
         <h1 class="text-center">COLLABORATIONS</h1>
-        <div class="row-cols-6  g-0 pt-2 pb-5 text-center">
-            
-            <img src="{{asset('images/zee-1.svg')}}"  class="img-fluid pt-5 mx-5">
-            
-            <img src="{{asset('images/zee-2.svg')}}"  class="img-fluid pt-5 mx-5">
-
-            <img src="{{asset('images/zee-3.svg')}}"  class="img-fluid pt-5 mx-5">
-
-            <img src="{{asset('images/zee-4.svg')}}"  class="img-fluid pt-5 mx-5">
-
-            <img src="{{asset('images/zee-5.svg')}}"  class="img-fluid pt-5 mx-5">
-
-            <img src="{{asset('images/zee-6.svg')}}"  class="img-fluid pt-5 mx-5">
-
-            <img src="{{asset('images/zee-7.svg')}}"  class="img-fluid pt-5 mx-5">
-
-            <img src="{{asset('images/zee-8.svg')}}"  class="img-fluid pt-5 mx-5">
-        
-            <img src="{{asset('images/zee-9.svg')}}"  class="img-fluid pt-5 mx-5">
-            
-            <img src="{{asset('images/zee-10.svg')}}" class="img-fluid pt-5 mx-5">
-            
-            <img src="{{asset('images/zee-11.svg')}}" class="img-fluid pt-5 mx-5">
-            
-            <img src="{{asset('images/zee-12.svg')}}" class="img-fluid pt-5 mx-5">
-        
-            <img src="{{asset('images/zee-13.svg')}}" class="img-fluid pt-5 mx-5">
-        
-            <img src="{{asset('images/zee-14.svg')}}" class="img-fluid pt-5 mx-5">
-        
-            <img src="{{asset('images/zee-15.svg')}}" class="img-fluid pt-5 mx-5 ">
-            
-            <img src="{{asset('images/zee-16.svg')}}" class="img-fluid pt-5 mx-5">
+        <div class="row-cols-6  g-0 pt-2 pb-5 text-center">       
+        <img src="{{asset('images/zee-1.svg')}}"  class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-2.svg')}}"  class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-3.svg')}}"  class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-4.svg')}}"  class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-5.svg')}}"  class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-6.svg')}}"  class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-7.svg')}}"  class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-9.svg')}}"  class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-10.svg')}}" class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-11.svg')}}" class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-12.svg')}}" class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-13.svg')}}" class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-14.svg')}}" class="img-fluid pt-5 mx-5">
+        <img src="{{asset('images/zee-15.svg')}}" class="img-fluid pt-5 mx-5 ">
+        <img src="{{asset('images/zee-16.svg')}}" class="img-fluid pt-5 mx-5">
            
-        </div>
-              
+        </div>      
         </div>
             
     </div>
-   
+
+
+
+
+
+
+
+
+<!-- Gallery -->
+<div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img
+        src="{{asset('images/picture-00.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+  
+
+    </div>
+  
+    <div class="col-md-4 mb-4 mb-lg-0">
+        <img
+        src="{{asset('images/image-1.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape"
+      />
+      <img
+        src="{{asset('images/picture-02.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Mountains in the Clouds"
+      />
+  
+      <img
+        src="{{asset('images/picture-03.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+    </div>
+  
+    <div class="col-md-4 mb-4 mb-lg-0">
+      <img
+        src="{{asset('images/image-2.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Waves at Sea"
+      />
+  
+      <img
+        src="{{asset('images/picture-05.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Yosemite National Park"
+      />
+      <img
+      src="{{asset('images/picture-06.png')}}"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+    </div>
+  </div>
+  <!-- Gallery -->
+
+
+
+
+
+
 
 </div>
 @endsection

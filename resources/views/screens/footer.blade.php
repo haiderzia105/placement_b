@@ -11,7 +11,7 @@
         <div class="col-md-3 footer-section px-0">
         <h5 class="my-1 ps-4">CAMPUS INFORMATION</h5>
         <ul class="ps-0">
-        <li class="d-flex"><i class="icon-point me-2"></i> Sargodha Road, University Town, Faisalabad</li>
+        <li class="d-flex"><i class="icon-point me-2"></i> Sargodha Road, University Town, Faisalabad.</li>
         <li class="d-flex"><i class="icon-point me-2"></i> Canal Road, Faisal Town, Faisalabad.</li>
         </ul>
         </div>
@@ -56,7 +56,7 @@
         </div>
         <div class="col-md-3 second-footer-section text-center d-inline text-white">
         <img src="https://tuf.edu.pk/Main/frontend/images/homepage/awards.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
-        <p >1st in Private and 4th in all Universities in Pakistan (2020)</p>
+        <p>1st in Private and 4th in all Universities in Pakistan (2020)</p>
         </div>
         <div class="col-md-3 second-footer-section text-center d-inline text-white">
         <img src="https://tuf.edu.pk/Main/frontend/images/homepage/rankings.svg" alt="The University of Faisalabad" title="The University of Faisalabad" class="footer-logo ">
@@ -71,7 +71,7 @@
     </div>
 
     <div class="last-foot">
-        <div class=" line-list container  pt-2 ">
+        <div class="line-list container  pt-2">
         <div class="row g-0 justify-content-center">
             <div class=" offset-1"></div>
             <div class="col-lg-2 col-md-3 col-sm-4 col-8">
@@ -87,14 +87,14 @@
             </div>
             <div class="col-lg-2 col-md-3 col-sm-4 col-8 d-flex">
                 <div class= "vertical d-none d-sm-block"></div>
-                <p class="last-head mx-4"> Student terms and conditions</p>
+                <p class="last-head mx-4"> Student terms and conditions </p>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-4 col-8 d-flex">
                 <div class= "vertical d-none d-sm-block"></div>
-                <p class="last-head mx-4"> Website cookies and privacy policy</p>
+                <p class="last-head mx-4"> Website cookies and privacy policy </p>
             </div>  
             <div class=" offset-1"></div>
         </div>        
     </div>
-</div>
+    </div>
 </div>

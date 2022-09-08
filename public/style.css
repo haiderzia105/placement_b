@@ -243,6 +243,7 @@
     color: var(--bs-light-black);
     font-size: 1.25rem;
 }
+
 .placement-wrapper .mess {
     font-family: "Poppins-Bold";
     color: var(--bs-red);
@@ -258,7 +259,6 @@
     border: 3px solid #333333;
 }
 
- 
 .placement-wrapper .placement-success .success-text h2{
     font-family: "Poppins-Bold";
     color:var(--bs-red);
